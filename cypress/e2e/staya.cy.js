@@ -1,10 +1,10 @@
 
 describe('Тестирование staya', function () {
     
-    it('Проваливаюсь в категорию поводки и ищу совпадение с названием Heatwave', function () {
+    it('Проваливаюсь в категорию поводки и ищу совпадение с названием Urban Violet', function () {
         cy.visit('https://staya.dog/');
-        cy.contains('input', 'Поводки').click();
-        cy.contains('Heatwave');
+        cy.contains('Поводки').click();
+        cy.contains('Urban Violet');
         cy.end();
          })
 
